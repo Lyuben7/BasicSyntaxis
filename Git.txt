@@ -1,0 +1,22 @@
+git init – Initialize a new Git repository in the current directory.
+git clone <url> – Copy an existing repository (remote or local) to your machine.
+git status – Check the status of your working directory and staging area.
+git add <file> – Stage specific changes for commit.
+git add . – Stage all modified and new files in the current directory.
+git commit -m "message" – Commit staged changes with a descriptive message.
+git commit -am "message" – Stage all modified files and commit in one step.
+git push origin <branch> – Push local commits to a remote repository.
+git pull – Fetch and merge changes from the remote repository into your current branch.
+git branch – List all local branches; the current branch is marked with an asterisk.
+git checkout <branch> – Switch to a different branch.
+git checkout -b <branch> – Create a new branch and switch to it.
+git merge <branch> – Merge changes from another branch into the current branch.
+git remote add origin <url> – Link your local repo to a remote repository.
+git config --global user.name "Your Name" – Set your Git username globally.
+git config --global user.email "you@example.com" – Set your Git email globally. 
+Useful Tips:
+
+Use git log to view commit history.
+Use git diff to see changes before staging.
+Use git stash to temporarily save uncommitted changes.
+Use git reset --hard HEAD~1 to undo the last commit (use with caution).
